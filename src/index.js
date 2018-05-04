@@ -38,11 +38,13 @@ class RichTextInput extends Component {
         this.divRef = ref;
     }
 
+    /*
     componentWillReceiveProps(nextProps) {
         if (nextProps.input.value !== this.props.input.value) {
             this.quill.pasteHTML(nextProps.input.value);
         }
     }
+    */
 
     render() {
         return <div className='aor-rich-text-input'>
